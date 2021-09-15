@@ -98,7 +98,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("📎Support", url="https://t.me/jns_fc_bots")
                 ],
                 [
-                    InlineKeyboardButton("🔎Movie request 🎯", url="https://t.me/joinchat/TiPKX2RgIaQ4ZmQ1")
+                    InlineKeyboardButton("🔎Movie request 🎯", url="https://t.me/discussion_hd_movies")
                 ],
                 [
                     InlineKeyboardButton("🗞️ About Me💫", callback_data = "about"),
