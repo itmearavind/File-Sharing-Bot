@@ -91,15 +91,18 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("😊 About Me", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("📝Dev🤓", url="https://t.me/Jns_bots")
                 ],
                 [
-                    InlineKeyboardButton("😎Dev🤓", url="https://t.me/Jns_bots")
+                    InlineKeyboardButton("🥳More movies💾", url="https://t.me/Tamil_LinkzZ"),
+                    InlineKeyboardButton("📎Support", url="https://t.me/jns_fc_bots")
                 ],
                 [
-                    InlineKeyboardButton("🥳More movies", url="https://t.me/FCfilmcornerfc"),
-                    InlineKeyboardButton("🔫Support", url="https://t.me/jns_fc_bots")
+                    InlineKeyboardButton("🔎Movie request 🎯", url="https://t.me/Jns_bots")
+                ],
+                [
+                    InlineKeyboardButton("🗞️ About Me💫", callback_data = "about"),
+                    InlineKeyboardButton("🔒 Close🗑️", callback_data = "close")
                 ]
             ]
         )
